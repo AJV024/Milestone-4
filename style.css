@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #cc0000, #ff6666);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.view-toggle {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.book-item {
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+.book-item img {
+    width: 128px;
+    height: 192px;
+}
+
+.book-details {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+/* View Styles */
+.grid-view .book-item {
+    display: inline-block;
+    width: 150px;
+}
+
+.list-view .book-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#search-results, #bookshelf-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
